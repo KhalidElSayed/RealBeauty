@@ -36,31 +36,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android 4.2 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/android-support-v4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../ActionBarSherlock/library" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../ActionBarSherlock/library/gen" />
-          <root url="file://$MODULE_DIR$/../ActionBarSherlock/library/src" />
-          <root url="file://$MODULE_DIR$/../ActionBarSherlock/library/target/generated-sources/r" />
-          <root url="file://$MODULE_DIR$/../ActionBarSherlock/library/test" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="module" module-name="ABS" />
+    <orderEntry type="library" name="android-support-v4" level="project" />
   </component>
 </module>
 
