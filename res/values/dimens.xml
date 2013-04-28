@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <item name="parent_padding" type="dimen">20dip</item>
+
+</resources>

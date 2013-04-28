@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="ButtonReal_beauty" parent="android:Widget.Button">
+    <item name="android:background">@drawable/btn_default_holo_light</item>
+    <item name="android:minHeight">48dip</item>
+    <item name="android:minWidth">64dip</item>
+    <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ImageButtonReal_beauty" parent="android:Widget.ImageButton">
+    <item name="android:background">@drawable/btn_default_holo_light</item>
+  </style>
+
+  <style name="parent_layout">
+    <item name="android:padding">@dimen/parent_padding</item>
+  </style>
+
+  <style name="ListViewReal_beauty" parent="android:Widget.ListView">
+    <item name="android:listSelector">@drawable/list_selector_holo_light</item>
+    <item name="android:padding">@dimen/parent_padding</item>
+  </style>
+
+  <style name="ListViewReal_beauty.White" parent="android:Widget.ListView.White">
+    <item name="android:listSelector">@drawable/list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerItemReal_beauty" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+    <item name="android:textColor">#000000</item>
+  </style>
+
+</resources>

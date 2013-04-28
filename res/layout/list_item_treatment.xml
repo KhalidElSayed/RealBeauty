@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="15dip" >
+
+  <TextView
+    android:id="@+id/treatment_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:textIsSelectable="false" />
+
+  <TextView
+    android:id="@+id/treatment_price"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:minEms="3"
+    android:textIsSelectable="false" />
+
+  <TextView
+    android:id="@+id/treatment_time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toLeftOf="@id/treatment_price"
+    android:minEms="5"
+    android:paddingRight="20dip"
+    android:textIsSelectable="false" />
+
+</RelativeLayout>
