@@ -2,7 +2,6 @@ package com.realbeauty.allie.ui.main;
 
 import android.support.v4.app.*;
 
-import com.realbeauty.allie.ui.domain.PagerItem;
 
 import java.util.List;
 

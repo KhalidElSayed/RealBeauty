@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="fill_parent"
-  android:layout_height="fill_parent"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
   android:orientation="vertical" >
+
+  <ImageView
+    android:id="@+id/main_title_image"
+    android:layout_width="match_parent"
+    android:layout_height="75dip"
+    android:contentDescription="@null"
+    android:scaleType="fitXY"
+    android:src="@drawable/tab_background_pricing" />
 
   <android.support.v4.view.ViewPager
     android:id="@+id/main_view_pager"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:layout_marginTop="45dip" >
 
-    <com.realbeauty.allie.ui.main.SectionTabStrip
+    <android.support.v4.view.PagerTabStrip
       android:id="@+id/main_pager_title_strip"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
+      android:layout_height="30dip"
       android:layout_gravity="top"
-      android:background="#33b5e5"
+      android:background="#33A6A6A6"
       android:paddingBottom="4dp"
       android:paddingTop="4dp"
       android:textColor="#fff" />
   </android.support.v4.view.ViewPager>
 
-</LinearLayout>
+</FrameLayout>

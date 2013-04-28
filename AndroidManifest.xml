@@ -10,7 +10,8 @@
 
   <application
     android:allowBackup="true"
-    android:label="@string/app_name" >
+    android:label="@string/app_name"
+    android:theme="@style/Theme.Real_beauty" >
     <activity
       android:name="com.realbeauty.allie.ui.main.MainActivity"
       android:label="@string/app_name" >
