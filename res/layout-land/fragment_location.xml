@@ -1,48 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:orientation="vertical" >
+  android:fillViewport="true"
+  android:scrollbars="none" >
 
   <LinearLayout
-    android:id="@+id/location_map_position"
-    style="@style/parent_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="@dimen/card_margin"
-    android:background="@drawable/background_card"
-    android:clickable="true"
-    android:orientation="horizontal"
-    tools:ignore="UselessParent" >
-
-    <ImageView
-      android:layout_width="wrap_content"
-      android:layout_height="match_parent"
-      android:layout_gravity="center"
-      android:contentDescription="@string/content_desc_map_salon_location"
-      android:src="@drawable/map_view" />
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
 
     <LinearLayout
-      android:id="@+id/fragment_contact_details_address"
+      android:id="@+id/location_map_position"
+      style="@style/parent_layout"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:paddingLeft="20dip"
-      android:paddingRight="20dip" >
+      android:layout_height="match_parent"
+      android:layout_margin="@dimen/card_margin"
+      android:background="@drawable/background_card"
+      android:clickable="true"
+      android:orientation="horizontal"
+      tools:ignore="UselessParent" >
 
-      <TextView
+      <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/contact_details_address_title"
-        android:textColor="@color/holo_blue_dark" />
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_desc_map_salon_location"
+        android:src="@drawable/map_view" />
 
-      <TextView
-        android:layout_width="wrap_content"
+      <LinearLayout
+        android:id="@+id/fragment_contact_details_address"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/contact_details_address"
-        android:textColor="@color/text_color" />
+        android:orientation="vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip" >
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/contact_details_address_title"
+          android:textColor="@color/holo_blue_dark" />
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/contact_details_address"
+          android:textColor="@color/text_color" />
+      </LinearLayout>
     </LinearLayout>
   </LinearLayout>
 
-</LinearLayout>
+</ScrollView>
