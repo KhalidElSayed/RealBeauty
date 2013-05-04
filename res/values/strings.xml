@@ -10,7 +10,7 @@
   <string name="contact_details_tel_title">Tel</string>
   <string name="contact_details_tel">07912176997</string>
   <string name="contact_details_email_title">Email</string>
-  <string name="contact_details_email">realbeautywithallie@hotmail.co.uk</string>
+  <string name="contact_details_email">realbeautywithallie\n@hotmail.co.uk</string>
   <string name="contact_details_booking_info_1">You can book your appointments by calling, texting, emailing or Facebook me!</string>
   <string name="contact_details_booking_info_2">I offer a wide range of treatments to suit everybody.</string>
   <string name="contact_details_opening_hours_title">My opening hours are</string>

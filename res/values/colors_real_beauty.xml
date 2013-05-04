@@ -25,5 +25,6 @@
   <color name="holo_blue_light">#33b5e5</color>
   <color name="transparent">#00000000</color>
   <color name="pressed_real_beauty">@color/holo_blue_light</color>
+  <color name="background">#F0F0F0</color>
 
 </resources>

@@ -31,6 +31,7 @@
     <item name="android:actionModeBackground">@drawable/cab_background_top_real_beauty</item>
     <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_real_beauty</item>
     <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Real_beauty</item>
+    <item name="android:windowBackground">@color/background</item>
   </style>
 
   <style name="ActionBar.Solid.Real_beauty" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
@@ -40,6 +41,7 @@
     <item name="android:progressBarStyle">@style/ProgressBar.Real_beauty</item>
     <item name="android:displayOptions">showHome|useLogo</item>
     <item name="displayOptions">showHome|useLogo</item>
+    <item name="android:icon">@drawable/ic_logo</item>
   </style>
 
   <style name="ActionBar.Transparent.Real_beauty" parent="@style/Widget.Sherlock.Light.ActionBar">

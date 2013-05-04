@@ -3,6 +3,7 @@ package com.realbeauty.allie.ui.main;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.realbeauty.allie.R;
@@ -44,6 +45,7 @@ public class SectionViewPagerManager implements OnPageChangeListener {
 	}
 
 	private void setItemTitleImage(int position) {
+		titleImage.startAnimation(AnimationUtils.loadAnimation(pager.getContext(), android.R.anim.fade_in));
 		titleImage.setImageResource(items.get(position).getImageId());
 	}
 

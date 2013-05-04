@@ -19,7 +19,6 @@
 
   <style name="ListViewReal_beauty" parent="android:Widget.ListView">
     <item name="android:listSelector">@drawable/list_selector_holo_light</item>
-    <item name="android:padding">@dimen/parent_padding</item>
   </style>
 
   <style name="ListViewReal_beauty.White" parent="android:Widget.ListView.White">

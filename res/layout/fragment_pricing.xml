@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ExpandableListView xmlns:android="http://schemas.android.com/apk/res/android"
-  android:id="@+id/pricing_list"
-  style="@style/ListViewReal_beauty"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/parent_layout"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:groupIndicator="@null"
-  android:padding="10dip" />
+  android:orientation="vertical" >
+
+  <ExpandableListView
+    android:id="@+id/pricing_list"
+    style="@style/ListViewReal_beauty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_card"
+    android:groupIndicator="@null"
+    android:scrollbars="none" />
+
+</LinearLayout>

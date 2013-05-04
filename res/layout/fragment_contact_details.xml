@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/parent_layout"
   android:layout_width="wrap_content"
-  android:layout_height="match_parent"
+  android:layout_height="wrap_content"
   android:fillViewport="true" >
 
   <LinearLayout
-    style="@style/parent_layout"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical" >
+    android:background="@drawable/background_card"
+    android:orientation="vertical"
+    android:padding="@dimen/card_margin" >
 
     <LinearLayout
       android:id="@+id/fragment_contact_details_address"
@@ -21,14 +23,14 @@
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="25"
+        android:layout_weight="30"
         android:text="@string/contact_details_address_title"
         android:textColor="@color/holo_blue_dark" />
 
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="75"
+        android:layout_weight="70"
         android:text="@string/contact_details_address"
         android:textColor="#000000" />
     </LinearLayout>
@@ -50,14 +52,14 @@
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="25"
+        android:layout_weight="30"
         android:text="@string/contact_details_tel_title"
         android:textColor="@color/holo_blue_dark" />
 
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="75"
+        android:layout_weight="70"
         android:text="@string/contact_details_tel"
         android:textColor="#000000" />
     </LinearLayout>
@@ -79,14 +81,15 @@
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="25"
+        android:layout_weight="30"
         android:text="@string/contact_details_email_title"
         android:textColor="@color/holo_blue_dark" />
 
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="75"
+        android:layout_weight="70"
+        android:ellipsize="marquee"
         android:text="@string/contact_details_email"
         android:textColor="#000000" />
     </LinearLayout>
@@ -138,14 +141,14 @@
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="25"
+        android:layout_weight="30"
         android:text="@string/contact_details_opening_hours_days_1"
         android:textColor="@color/holo_blue_dark" />
 
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="75"
+        android:layout_weight="70"
         android:text="@string/contact_details_opening_hours_times_1"
         android:textColor="#000000" />
     </LinearLayout>
@@ -164,14 +167,14 @@
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="25"
+        android:layout_weight="30"
         android:text="@string/contact_details_opening_hours_days_2"
         android:textColor="@color/holo_blue_dark" />
 
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="75"
+        android:layout_weight="70"
         android:text="@string/contact_details_opening_hours_times_2"
         android:textColor="#000000" />
     </LinearLayout>
@@ -201,14 +204,14 @@
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="25"
+        android:layout_weight="30"
         android:text="@string/contact_details_opening_hours_days_3"
         android:textColor="@color/holo_blue_dark" />
 
       <TextView
         android:layout_width="0dip"
         android:layout_height="wrap_content"
-        android:layout_weight="75"
+        android:layout_weight="70"
         android:text="@string/contact_details_opening_hours_times_3"
         android:textColor="#000000" />
     </LinearLayout>

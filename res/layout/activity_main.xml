@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:orientation="vertical" >
+  android:layout_height="match_parent" >
 
   <ImageView
     android:id="@+id/main_title_image"
     android:layout_width="match_parent"
-    android:layout_height="75dip"
+    android:layout_height="100dip"
     android:contentDescription="@null"
     android:scaleType="fitXY"
     android:src="@drawable/tab_background_pricing" />
@@ -16,17 +15,18 @@
     android:id="@+id/main_view_pager"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="45dip" >
+    android:layout_below="@id/main_title_image"
+    android:layout_marginTop="-30dip" >
 
     <android.support.v4.view.PagerTabStrip
       android:id="@+id/main_pager_title_strip"
       android:layout_width="match_parent"
       android:layout_height="30dip"
       android:layout_gravity="top"
-      android:background="#33A6A6A6"
+      android:background="#66CCCCCC"
       android:paddingBottom="4dp"
       android:paddingTop="4dp"
-      android:textColor="#fff" />
+      android:textColor="#000" />
   </android.support.v4.view.ViewPager>
 
-</FrameLayout>
+</RelativeLayout>
