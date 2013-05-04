@@ -5,22 +5,25 @@
   android:baselineAligned="false"
   android:orientation="horizontal" >
 
-  <include
-    android:layout_width="5dip"
+  <fragment
+    android:id="@+id/fragment_pricing"
+    android:layout_width="0dip"
     android:layout_height="match_parent"
     android:layout_weight="33"
-    layout="@layout/fragment_pricing" />
+    class="com.realbeauty.allie.ui.pricing.PricingFragment" />
 
-  <include
-    android:layout_width="5dip"
+  <fragment
+    android:id="@+id/fragment_location"
+    android:layout_width="0dip"
     android:layout_height="match_parent"
     android:layout_weight="33"
-    layout="@layout/fragment_location" />
+    class="com.realbeauty.allie.ui.location.LocationFragment" />
 
-  <include
-    android:layout_width="5dip"
+  <fragment
+    android:id="@+id/fragment_contact_details"
+    android:layout_width="0dip"
     android:layout_height="match_parent"
     android:layout_weight="33"
-    layout="@layout/fragment_contact_details" />
+    class="com.realbeauty.allie.ui.contact.ContactDetailsFragment" />
 
 </LinearLayout>
