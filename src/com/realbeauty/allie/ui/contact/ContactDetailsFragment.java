@@ -23,19 +23,11 @@ public class ContactDetailsFragment extends SherlockFragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View root = inflater.inflate(R.layout.fragment_contact_details, container, false);
 
-		root.findViewById(R.id.fragment_contact_details_address).setOnClickListener(onAddressClick);
 		root.findViewById(R.id.fragment_contact_details_telephone).setOnClickListener(onTelephoneClick);
 		root.findViewById(R.id.fragment_contact_details_email).setOnClickListener(onEmailClick);
 
 		return root;
 	}
-
-	private final OnClickListener onAddressClick = new OnClickListener() {
-		@Override
-		public void onClick(View v) {
-			navigator.toSalonLocationOnMap();
-		}
-	};
 
 	private final OnClickListener onTelephoneClick = new OnClickListener() {
 		@Override

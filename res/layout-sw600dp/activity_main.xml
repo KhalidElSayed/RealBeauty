@@ -9,21 +9,21 @@
     android:id="@+id/fragment_pricing"
     android:layout_width="match_parent"
     android:layout_height="0dip"
-    android:layout_weight="33"
+    android:layout_weight="40"
     class="com.realbeauty.allie.ui.pricing.PricingFragment" />
 
   <fragment
     android:id="@+id/fragment_location"
     android:layout_width="match_parent"
     android:layout_height="0dip"
-    android:layout_weight="33"
+    android:layout_weight="25"
     class="com.realbeauty.allie.ui.location.LocationFragment" />
 
   <fragment
     android:id="@+id/fragment_contact_details"
     android:layout_width="match_parent"
     android:layout_height="0dip"
-    android:layout_weight="33"
+    android:layout_weight="35"
     class="com.realbeauty.allie.ui.contact.ContactDetailsFragment" />
 
 </LinearLayout>
