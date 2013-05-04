@@ -85,7 +85,7 @@
     <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="@string/contact_details_opening_hours_title"
+      android:text="@string/contact_details_booking_info_2"
       android:textColor="#000000" />
 
     <android.Space
@@ -96,7 +96,7 @@
     <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="@string/contact_details_booking_info_2"
+      android:text="@string/contact_details_opening_hours_title"
       android:textColor="#000000" />
 
     <android.Space
