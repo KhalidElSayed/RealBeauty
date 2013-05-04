@@ -2,14 +2,14 @@ package com.realbeauty.allie.ui.contact;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.*;
 import android.view.View.OnClickListener;
 
+import com.actionbarsherlock.app.SherlockFragment;
 import com.realbeauty.allie.R;
 import com.realbeauty.allie.nav.Navigator;
 
-public class ContactDetailsFragment extends Fragment {
+public class ContactDetailsFragment extends SherlockFragment {
 
 	private Navigator navigator;
 

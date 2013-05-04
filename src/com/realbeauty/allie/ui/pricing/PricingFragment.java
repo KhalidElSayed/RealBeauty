@@ -1,14 +1,14 @@
 package com.realbeauty.allie.ui.pricing;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.*;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 
+import com.actionbarsherlock.app.SherlockFragment;
 import com.realbeauty.allie.R;
 
-public class PricingFragment extends Fragment {
+public class PricingFragment extends SherlockFragment {
 
 	private ExpandableListView list;
 

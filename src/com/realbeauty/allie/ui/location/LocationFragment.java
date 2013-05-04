@@ -1,14 +1,14 @@
 package com.realbeauty.allie.ui.location;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.*;
 import android.view.View.OnClickListener;
 
+import com.actionbarsherlock.app.SherlockFragment;
 import com.realbeauty.allie.R;
 import com.realbeauty.allie.nav.Navigator;
 
-public class LocationFragment extends Fragment implements OnClickListener {
+public class LocationFragment extends SherlockFragment implements OnClickListener {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

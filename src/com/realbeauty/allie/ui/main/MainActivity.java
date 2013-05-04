@@ -11,9 +11,12 @@ public class MainActivity extends BlundellActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		boolean isTablet = getResources().getBoolean(R.bool.isTablet);
 
-		SectionViewPagerManager sectionViewPagerManager = new SectionViewPagerManager(this, R.id.main_title_image, R.id.main_view_pager);
-		sectionViewPagerManager.load();
+		if (!isTablet) {
+			SectionViewPagerManager sectionViewPagerManager = new SectionViewPagerManager(this, R.id.main_title_image, R.id.main_view_pager);
+			sectionViewPagerManager.load();
+		}
 	}
 
 }
