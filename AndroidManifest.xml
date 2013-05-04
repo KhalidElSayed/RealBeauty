@@ -9,6 +9,7 @@
     android:targetSdkVersion="17" />
 
   <application
+    android:name="com.realbeauty.allie.ui.BlundellApplication"
     android:allowBackup="true"
     android:label="@string/app_name"
     android:theme="@style/Theme.Real_beauty" >

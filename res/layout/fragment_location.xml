@@ -16,41 +16,37 @@
     android:orientation="vertical"
     tools:ignore="UselessParent" >
 
-    <ImageView
+    <com.realbeauty.allie.ui.widget.FontTextView
       android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/contact_details_address_title"
+      android:textColor="@color/holo_blue_dark" />
+
+    <com.realbeauty.allie.ui.widget.FontTextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/contact_details_address"
+      android:textColor="@color/text_color" />
+
+    <android.Space
+      android:layout_width="match_parent"
+      android:layout_height="0dip"
+      android:layout_weight="1" />
+
+    <ImageView
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_gravity="center"
       android:contentDescription="@string/content_desc_map_salon_location"
       android:src="@drawable/map_view" />
 
-    <android.Space
-      android:layout_width="match_parent"
-      android:layout_height="0dip"
-      android:layout_weight="30" />
-
-    <LinearLayout
-      android:id="@+id/fragment_contact_details_address"
-      android:layout_width="match_parent"
+    <com.realbeauty.allie.ui.widget.FontTextView
+      android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:orientation="vertical" >
-
-      <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/contact_details_address_title"
-        android:textColor="@color/holo_blue_dark" />
-
-      <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/contact_details_address"
-        android:textColor="@color/text_color" />
-    </LinearLayout>
-
-    <android.Space
-      android:layout_width="match_parent"
-      android:layout_height="0dip"
-      android:layout_weight="70" />
+      android:drawableLeft="@drawable/ic_nav"
+      android:gravity="center"
+      android:text="@string/navigate"
+      android:textColor="@color/holo_blue_dark" />
   </LinearLayout>
 
 </LinearLayout>

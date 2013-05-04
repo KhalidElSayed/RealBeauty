@@ -154,7 +154,7 @@
       android:layout_height="0dip"
       android:layout_weight="1" />
 
-    <com.realbeauty.allie.ui.widget.FontTextView
+    <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/contact_details_opening_hours_subtitle"
@@ -184,6 +184,13 @@
         android:text="@string/contact_details_opening_hours_times_3"
         android:textColor="@color/text_color" />
     </LinearLayout>
+
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dip"
+      android:contentDescription="@null"
+      android:src="@drawable/tab_background_contact" />
   </LinearLayout>
 
 </ScrollView>

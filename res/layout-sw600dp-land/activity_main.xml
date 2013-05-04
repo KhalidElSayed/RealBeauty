@@ -6,18 +6,18 @@
   android:orientation="horizontal" >
 
   <fragment
-    android:id="@+id/fragment_pricing"
-    android:layout_width="0dip"
-    android:layout_height="match_parent"
-    android:layout_weight="33"
-    class="com.realbeauty.allie.ui.pricing.PricingFragment" />
-
-  <fragment
     android:id="@+id/fragment_location"
     android:layout_width="0dip"
     android:layout_height="match_parent"
     android:layout_weight="33"
     class="com.realbeauty.allie.ui.location.LocationFragment" />
+
+  <fragment
+    android:id="@+id/fragment_pricing"
+    android:layout_width="0dip"
+    android:layout_height="match_parent"
+    android:layout_weight="33"
+    class="com.realbeauty.allie.ui.pricing.PricingFragment" />
 
   <fragment
     android:id="@+id/fragment_contact_details"

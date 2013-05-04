@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical" >
+
+  <LinearLayout
+    style="@style/parent_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/card_margin"
+    android:background="@drawable/background_card"
+    android:orientation="vertical"
+    tools:ignore="UselessParent" >
+
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="5dip"
+      android:contentDescription="@null"
+      android:src="@drawable/tab_background_pricing" />
+
+    <ExpandableListView
+      android:id="@+id/pricing_list"
+      style="@style/ListViewReal_beauty"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:groupIndicator="@null"
+      android:scrollbars="none" />
+  </LinearLayout>
+
+</LinearLayout>

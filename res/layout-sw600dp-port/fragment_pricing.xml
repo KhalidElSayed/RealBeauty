@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/parent_layout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal" >
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_card"
+    android:orientation="vertical" >
+
+    <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:contentDescription="@null"
+      android:scaleType="centerCrop"
+      android:src="@drawable/tab_background_contact" />
+
+    <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="0dip"
+      android:layout_weight="1"
+      android:contentDescription="@null"
+      android:scaleType="centerCrop"
+      android:src="@drawable/tab_background_pricing" />
+
+    <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:contentDescription="@null"
+      android:scaleType="centerCrop"
+      android:src="@drawable/tab_background_location" />
+  </LinearLayout>
+
+  <ExpandableListView
+    android:id="@+id/pricing_list"
+    style="@style/ListViewReal_beauty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_card"
+    android:groupIndicator="@null"
+    android:scrollbars="none" />
+
+</LinearLayout>
