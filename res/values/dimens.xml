@@ -2,6 +2,6 @@
 <resources>
 
   <item name="parent_padding" type="dimen">20dip</item>
-  <item name="card_margin" type="dimen">20dip</item>
+  <item name="card_margin" type="dimen">15dip</item>
 
 </resources>

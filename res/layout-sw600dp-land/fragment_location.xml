@@ -13,12 +13,11 @@
     android:layout_margin="@dimen/card_margin"
     android:background="@drawable/background_card"
     android:clickable="true"
-    android:gravity="center_vertical"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:ignore="UselessParent" >
 
     <ImageView
-      android:layout_width="wrap_content"
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_gravity="center"
       android:contentDescription="@string/content_desc_map_salon_location"
@@ -29,7 +28,9 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:orientation="vertical"
-      android:padding="10dip" >
+      android:paddingLeft="20dip"
+      android:paddingRight="20dip"
+      android:paddingTop="20dip" >
 
       <TextView
         android:layout_width="wrap_content"
