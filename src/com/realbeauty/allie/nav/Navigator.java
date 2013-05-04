@@ -65,7 +65,7 @@ public class Navigator {
 			startNewTask(intent);
 		} catch (ActivityNotFoundException e) {
 			Log.d("TAG", "Facebook app not found", e);
-			Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/pages/" + SALON_FACEBOOK_PAGE_NAME));
+			Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/pages/" + SALON_FACEBOOK_PAGE_NAME + "/" + SALON_FACEBOOK_PAGE_ID));
 			startNewTask(intent2);
 		}
 	}
